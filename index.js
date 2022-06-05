@@ -32,6 +32,19 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'email',
+        message: 'What is your email? (Required)',
+        validate: emailInput => {
+            if (emailInput) {
+                return true;
+            } else {
+                console.log('Please enter your email.');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
         name: 'what',
         message: 'What was your motivation for creating this project? (Required)',
         validate: whatInput => {
@@ -59,9 +72,9 @@ const questions = [
     {
         type: 'input',
         name: 'problem',
-        message: 'What problem does it solve? (Required)',
-        validate: howInput => {
-            if (howInput) {
+        message: 'What problem does it solve?',
+        validate: solveInput => {
+            if (solveInput) {
                 return true;
             } else {
                 console.log('Please enter what problem it solves.');
@@ -72,9 +85,9 @@ const questions = [
     {
         type: 'input',
         name: 'learn',
-        message: 'What did you learn?(Required)',
-        validate: installInput => {
-            if (installInput) {
+        message: 'What did you learn?',
+        validate: learnInput => {
+            if (learnInput) {
                 return true;
             } else {
                 console.log('Please enter what you learned.');
@@ -86,8 +99,8 @@ const questions = [
         type: 'input',
         name: 'standOut',
         message: 'What makes your project stand out? (Required)',
-        validate: usageInput => {
-            if (usageInput) {
+        validate: standOutInput => {
+            if (standOutnput) {
                 return true;
             } else {
                 console.log('Please enter what makes it stand out.');
@@ -97,15 +110,35 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'license',
+        message: 'What license do you have for this project?',
+        validate: licenseInput => {
+            if (licenseInput) {
+                return true;
+            } else {
+                console.log('Please enter the license you have.');
+                return false;
+            }
+        }
+      },
+    {
+        type: 'input',
         name: 'installation',
         message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. (required)',
         choices: ['agpl', 'apache', 'mit', 'no license']
     },
     {
         type: 'input',
-        name: 'Usage',
-        message: 'Provide instructions and examples for use.',
-        default: true
+        name: 'test',
+        message: 'Please provide instructions on how to test the app. (Required)',
+        validate: testInput => {
+            if (testInput) {
+                return true;
+            } else {
+                console.log('Please enter your use test instructions!');
+                return false;
+            }
+        }
     },
     {
         type: 'input',
@@ -123,19 +156,6 @@ const questions = [
                 return true;
             } else {
                 console.log('Please enter contributer guidelines!');
-                return false;
-            }
-        }
-    },
-    {
-        type: 'input',
-        name: 'test',
-        message: 'Please provide instructions on how to test the app. (Required)',
-        validate: testInput => {
-            if (testInput) {
-                return true;
-            } else {
-                console.log('Please enter your use test instructions!');
                 return false;
             }
         }

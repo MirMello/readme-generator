@@ -1,39 +1,51 @@
 
     # ReadME Generator
     
-     
+    
+    ![badge](https://img.shields.io/badge/license-Not Licensed-blue)
+      
   
     ## Table-of-Contents
   
     * [Description](#description)
     * [Installation](#installation)
     * [Usage](#usage)
-     
+    
+    * [License](#license)
+      
     * [Contributing](#contributing)
     * [Tests](#tests)
     * [Questions](#questions)
     
     ## [Description](#table-of-contents)
   
-    This can help solve lack of professionalism in README files
+    To make creating ReadME files faster and easier for future projects
   
-    I built this to save time and make professional looking README files
+    I built this for myself and others to use
   
-    To install this README Generator, type the following into your command line: node install inquirer node index
+    undefined
   
     ## [Installation](#table-of-contents)
   
-    download the code onto your computer, in the command line, enter npm install inquirer to install
+    After downloading all the files, run an NPM inquirier install on your command line.
   
     ## [Usage](#table-of-contents)
   
-    Type in your command line: node index, to use the code to create your ReadMe File
+    undefined
     
     For more information on how to add screenshots for examples, visit the following website:
     
     [Mark Down Tutorial](https://agea.github.io/tutorial.md/)
     
-     
+    
+    ## [License](#table-of-contents)
+  
+    The application is covered under the following license:
+  
+    
+    [Not Licensed](https://choosealicense.com/licenses/Not Licensed)
+      
+      
   
     ## [Contributing](#table-of-contents)
     
@@ -43,7 +55,7 @@
   
     ## [Tests](#table-of-contents)
   
-    A walkthrough video will be added
+    listed above
   
     ## [Questions](#table-of-contents)
   
@@ -51,5 +63,5 @@
   
     [GitHub](https://github.com/MirMello)
   
-    [Email: mirandaleeallen@gmail.com](mailto:mirandaleeallen@gmail.com)
+    [Email: undefined](mailto:undefined)
   
