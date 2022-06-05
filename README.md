@@ -2,7 +2,7 @@
 # ReadME Generator
 
 
-![badge](https://img.shields.io/badge/license-Not Licensed-blue)
+Not Licensed
     
 
 ## Table-of-Contents
@@ -23,15 +23,11 @@ To make creating ReadME files faster and easier for future projects
 
 I built this for myself and others to use
 
-undefined
-
 ## [Installation](#table-of-contents)
 
 After downloading all the files, run an NPM inquirier install on your command line.
 
 ## [Usage](#table-of-contents)
-
-undefined
 
 For more information on how to add screenshots for examples, visit the following website:
 
@@ -55,7 +51,6 @@ Thank you for your interest in helping out; however, I will not be accepting con
 
 ## [Tests](#table-of-contents)
 
-listed above
 
 ## [Questions](#table-of-contents)
 
